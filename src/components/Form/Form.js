@@ -4,7 +4,7 @@ const Form = () => {
     return (
         <div className='px-4  py-[50px]  '>
             <div className='border-[3px] rounded-[24px]  border-[#0370DD] grid grid-cols-1 md:grid-cols-5'>
-                <div className='md:col-span-2 pt-[75px] pb-4 pl-[30px]  md:pl-[58px] md:border-r md:border-slate-400 order-2 md:order-1'>
+                <div className='md:col-span-2 pt-[75px] pb-6 pl-[30px]  md:pl-[58px] md:border-r md:border-slate-400 order-2 md:order-1'>
                     <div className='flex flex-col gap-4 mr-10'>
                         <h2 className='text-[30px] md:text-[42px] font-extrabold'>Education<span className='text-red-600'>*</span></h2>
                         <div className="form-control w-full ">
@@ -44,12 +44,12 @@ const Form = () => {
                                 <span className="label-text-alt font-medium text-[14px] md:text-[18px] text-[#707784]">0/200</span>
                             </label>
                         </div>
-                        <div className="form-control w-full">
+                        <div className="form-control w-full mt-16">
                             <button className='btn btn-primary bg-[#0370DD] rounded-[8px] border-0 px-[40px] py-[16px] w-fit normal-case text-[20px]'>Generate</button>
                         </div>
                     </div>
                 </div>
-                <div className='md:col-span-3 pt-[75px] pb-4 px-[20px] order-1 md:order-2'>
+                <div className='md:col-span-3 pt-[75px] pb-6 px-[20px] order-1 md:order-2'>
                     <img src={EmptyState} alt="" />
                 </div>
             </div>
