@@ -4,7 +4,7 @@ const Form = () => {
     return (
         <div className='px-4  py-[50px]  '>
             <div className='border-[3px] rounded-[24px]  border-[#0370DD] grid grid-cols-1 md:grid-cols-5'>
-                <div className='md:col-span-2 pt-[75px] pb-4 pl-[30px]  md:pl-[58px] md:border-r md:border-slate-600 order-2 md:order-1'>
+                <div className='md:col-span-2 pt-[75px] pb-4 pl-[30px]  md:pl-[58px] md:border-r md:border-slate-400 order-2 md:order-1'>
                     <div className='flex flex-col gap-4 mr-10'>
                         <h2 className='text-[30px] md:text-[42px] font-extrabold'>Education<span className='text-red-600'>*</span></h2>
                         <div className="form-control w-full ">
